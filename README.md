@@ -102,7 +102,6 @@ services:
 <li>il faut modifier le fichier comme ceci .</li>
 <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; border: 1px solid #ccc;">
 <code style="color: #0366d6;">
-
 homeassistant: true
 permit_join: true
 frontend: 
@@ -117,7 +116,6 @@ advanced:
   network_key: [66, 44, 78, 220, 69, 99, 240, 153, 236, 96, 128, 253, 179, 158, 76, 102]
   pan_id: 33006
   ext_pan_id: [238, 229, 113, 212, 16, 93, 199, 50]
-
 </code>
 </pre>
 
@@ -125,14 +123,12 @@ advanced:
 ### Étape 4: modification du fichier mosquitto.conf de mosquitto
 <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; border: 1px solid #ccc;">
 <code style="color: #0366d6;">
-
 persistence true
 persistence_location /mosquitto/data/
 log_dest file /mosquitto/log/mosquitto.log
 log_type all
 listener 1883
 allow_anonymous true
-
 </code>
 </pre>
 
