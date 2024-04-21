@@ -136,5 +136,5 @@ allow_anonymous true
 ### Utilisation
 
 <li>redemarer les conteneurs .</li>
-<p>accédez à vos conteneur via <a href="http://<adresse_ip_du_conteneur>+port">adresse_ip_du_conteneur>+port:8123</a> pour configurer vos appareils.</p>
+<p>accédez à vos conteneur via <a href="http://<adresse_ip_du_conteneur>+port">adresse_ip_du_conteneur>+port</a> pour configurer vos appareils.</p>
 
